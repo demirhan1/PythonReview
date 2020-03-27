@@ -1,11 +1,10 @@
-#Examples
+#Python Review with Examples
 
 my_list = [7,1,2,3,4,5]
 
 # Printing each value in my_list. Note you can use the "in" keyword to iterate over a list.
 for item in my_list:
     print('The value of the item: ' + str(item))
-
 
 # Printing each index and value pair.
 for i, value in enumerate(my_list):
@@ -43,7 +42,6 @@ else:
 # TODO: Define a control structure that finds the smallest positive
 # number in in_list and returns the correct smallest number.
 def smallest_positive(in_list):
-
     smallest_pos = None
     for num in in_list:
         if num > 0:
@@ -67,3 +65,4 @@ print(smallest_positive([-6, -9, -7]))
 
 print(smallest_positive([]))
 # Correct output: None
+
